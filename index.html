@@ -1,59 +1,1128 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f7f3"><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#18251f"><meta name="color-scheme" content="light dark"><meta name="description" content="AUBE Residence — uma estadia privada, com piscina e conforto para até 8 hóspedes.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f7f3">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#18251f">
+  <meta name="color-scheme" content="light dark">
   <title>AUBE Residence — João Pessoa, Brasil</title>
-  <link rel="preconnect" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
-    :root{--ink:#20302b;--muted:#737a73;--sand:#f8f7f3;--line:#e6e5df;--green:#354a40;--white:#fff;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--sand);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}button,input{font:inherit}button{cursor:pointer}.top{height:72px;display:flex;align-items:center;justify-content:space-between;max-width:1320px;margin:auto;padding:0 40px}.brand{font-family:var(--serif);font-size:21px;letter-spacing:.05em}.brand small{display:block;font:9px var(--sans);letter-spacing:.27em;text-transform:uppercase;color:#788079;margin-top:2px}.top-right{display:flex;align-items:center;gap:27px;font-size:12px}.top-right a{color:inherit;text-decoration:none}.share,.heart{border:1px solid var(--line);background:transparent;border-radius:30px;padding:10px 15px;color:var(--ink)}.hero-wrap{max-width:1320px;padding:20px 40px 0;margin:auto}.intro{display:flex;justify-content:space-between;align-items:end;margin:5px 0 22px}.eyebrow{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#7c837b}.intro h1{font:500 clamp(34px,4.3vw,57px)/1.05 var(--serif);letter-spacing:-.035em;margin:12px 0 10px}.subline{font-size:13px;color:var(--muted)}.review{font-size:12px;white-space:nowrap;padding-bottom:7px}.review b{font-size:14px}.gallery{height:min(56vw,530px);min-height:350px;display:grid;grid-template-columns:1.85fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:8px;border-radius:12px;overflow:hidden;position:relative}.photo{background-size:cover;background-position:center;transition:filter .3s,transform .6s;cursor:pointer}.photo:hover{filter:brightness(.92)}.photo.main{grid-row:1/3;position:relative}.photo:nth-child(2){background-position:center 56%}.gallery .show-all{position:absolute;bottom:20px;right:20px;border:0;background:#fff;color:#25352f;border-radius:6px;padding:12px 17px;font-size:12px;font-weight:600;box-shadow:0 4px 16px #0002}.content{max-width:1240px;margin:0 auto;padding:46px 40px 90px;display:grid;grid-template-columns:minmax(0,1fr) 370px;gap:72px}.host-line{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:24px}.host-line h2{font:500 24px var(--serif);margin:0 0 8px}.host-line p{font-size:12px;color:var(--muted);margin:0}.avatar{width:48px;height:48px;border-radius:50%;background:#e5e3d9;display:grid;place-items:center;font:18px var(--serif);color:#52645a}.features{display:flex;flex-wrap:wrap;gap:26px;margin:28px 0 31px}.feature{display:flex;gap:10px;align-items:center;font-size:12px}.feature b{font-weight:600;display:block;font-size:12px}.feature small{display:block;color:var(--muted);font-size:10px;margin-top:3px}.ico{font-size:20px;color:#586b60}.description{font-size:14px;line-height:1.85;color:#515b55;max-width:650px}.description p{margin:0 0 14px}.read-more{border:0;background:none;text-decoration:underline;font-size:12px;padding:0;color:var(--ink);font-weight:600}.amenities{border-top:1px solid var(--line);margin-top:34px;padding-top:27px}.section-title{font:500 25px var(--serif);margin:0 0 20px}.amenity-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 30px}.amenity{font-size:12px;color:#4d5952;display:flex;gap:12px}.amenity i{font-style:normal;font-size:17px;width:20px}.all-amenities{margin-top:24px;border:1px solid var(--ink);border-radius:6px;background:none;padding:13px 18px;font-size:12px;color:var(--ink)}.location{margin-top:38px;border-top:1px solid var(--line);padding-top:27px}.map{height:190px;border-radius:9px;overflow:hidden;position:relative;background:linear-gradient(130deg,#e7e7dc,#dce4d9 45%,#c5dedc 46%,#b8d6d4 100%)}.map:before{content:'';position:absolute;inset:-20px;background:repeating-linear-gradient(35deg,transparent 0 42px,#ffffff74 43px 45px);transform:rotate(-8deg)}.map::after{content:'⌖';position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);font-size:34px;color:#425e50}.map-label{position:absolute;bottom:13px;left:14px;background:#fff;padding:8px 11px;border-radius:5px;font-size:10px;box-shadow:0 2px 8px #0001}.booking{align-self:start;position:sticky;top:22px;background:white;border:1px solid var(--line);border-radius:10px;padding:24px;box-shadow:0 8px 28px #29352d0d}.price{font-size:13px;margin-bottom:18px}.price strong{font:500 24px var(--serif)}.price span{color:var(--muted)}.booking-grid{border:1px solid #c9cbc5;border-radius:7px;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}.field{padding:11px 12px;border-bottom:1px solid #d4d5cf}.field:nth-child(odd){border-right:1px solid #d4d5cf}.field label{display:block;font-size:9px;font-weight:700;letter-spacing:.09em;margin-bottom:6px}.field input,.field select{border:0;outline:0;background:transparent;color:#616b64;font-size:11px;width:100%;padding:0}.field.full{grid-column:1/3;border-bottom:0}.field.full select{font-size:12px;color:var(--ink)}.reserve{margin-top:15px;width:100%;border:0;border-radius:6px;background:var(--green);color:white;padding:15px;font-size:12px;font-weight:600;transition:background .2s,transform .2s}.reserve:hover{background:#263a30;transform:translateY(-1px)}.fine{text-align:center;font-size:10px;color:var(--muted);margin:12px 0 17px}.costs{border-top:1px solid var(--line);padding-top:15px;font-size:11px;color:#5d665f}.cost-row{display:flex;justify-content:space-between;margin:12px 0}.cost-row span:first-child{text-decoration:underline;text-decoration-color:#bcc0bb;text-underline-offset:3px}.cost-total{border-top:1px solid var(--line);padding-top:14px;margin-top:15px;color:var(--ink);font-weight:700}.note{display:flex;gap:10px;align-items:center;margin-top:20px;border-top:1px solid var(--line);padding-top:17px;font-size:10px;line-height:1.5;color:var(--muted)}.note b{color:var(--ink);display:block}.footer{border-top:1px solid var(--line);padding:24px 40px;display:flex;justify-content:space-between;max-width:1320px;margin:auto;font-size:10px;color:var(--muted)}.modal{position:fixed;inset:0;z-index:10;background:#111d;display:none;align-items:center;justify-content:center;padding:35px}.modal.open{display:flex}.modal img{max-width:min(100%,1100px);max-height:80vh;object-fit:contain;border-radius:5px}.modal-close,.modal-prev,.modal-next{position:absolute;border:0;border-radius:50%;width:42px;height:42px;background:#fff;color:#22352d;font-size:22px}.modal-close{right:24px;top:24px}.modal-prev{left:24px}.modal-next{right:24px}.modal-count{position:absolute;bottom:24px;color:white;font-size:12px}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#20352b;color:white;padding:13px 19px;border-radius:8px;font-size:12px;transition:.25s;z-index:20}.toast.show{opacity:1;transform:translate(-50%,0)}
-    .cinematic{position:relative;height:320vh;background:#18251f;color:white}.cinematic-sticky{position:sticky;top:0;height:100svh;min-height:560px;overflow:hidden;isolation:isolate}.cinematic-frames,.cinematic-shade{position:absolute;inset:0}.cinematic-frame{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.09);will-change:opacity,transform}.cinematic-frame:first-child{opacity:1}.cinematic-shade{z-index:1;background:linear-gradient(90deg,#10201bd9,#10201b38 75%),linear-gradient(0deg,#10201b66,transparent 45%)}.cinematic-copy{position:absolute;z-index:2;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;max-width:1320px;width:100%;margin:auto;padding:100px 8vw 90px}.cinematic-kicker{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#e0d7c4}.cinematic-title{font:400 clamp(48px,8vw,108px)/.98 var(--serif);letter-spacing:-.045em;max-width:780px;margin:22px 0}.cinematic-description{font-size:clamp(14px,1.5vw,18px);line-height:1.7;color:#f1efe9;max-width:390px;margin:0;min-height:3.4em}.cinematic-bottom{position:absolute;z-index:3;left:8vw;right:8vw;bottom:34px;display:flex;align-items:center;justify-content:space-between;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.cinematic-progress{display:flex;align-items:center;gap:12px;color:#ffffffbc}.cinematic-track{width:min(26vw,230px);height:1px;background:#ffffff66}.cinematic-track span{display:block;height:100%;width:0;background:#fff}.cinematic-next{color:#fff;text-decoration:none;border-bottom:1px solid #ffffff88;padding-bottom:7px}.cinematic-scrollhint{position:absolute;z-index:3;right:8vw;top:50%;writing-mode:vertical-rl;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#ffffffad}.cinematic-frame[data-frame="0"]{background-image:url('aube-images/aube-07.png')}.cinematic-frame[data-frame="1"]{background-image:url('aube-images/aube-09.png')}.cinematic-frame[data-frame="2"]{background-image:url('aube-images/aube-10.png')}.cinematic-frame[data-frame="3"]{background-image:url('aube-images/aube-01.png')}@media(max-width:700px){.cinematic{height:280vh}.cinematic-sticky{min-height:500px}.cinematic-copy{padding:80px 25px 120px}.cinematic-title{font-size:clamp(48px,14vw,76px)}.cinematic-shade{background:linear-gradient(90deg,#10201bbd,#10201b55 85%),linear-gradient(0deg,#10201b99,transparent 65%)}.cinematic-bottom{left:25px;right:25px;bottom:24px}.cinematic-scrollhint{right:20px}.cinematic-description{max-width:300px}}@media(prefers-reduced-motion:reduce){.cinematic{height:auto;padding:18px 14px 32px;background:var(--sand);color:var(--ink)}.cinematic-sticky{position:relative;top:auto;height:auto;min-height:0;overflow:visible;border-radius:10px}.cinematic-frames{position:relative;height:58vh;min-height:320px}.cinematic-frame{display:none;transform:none!important}.cinematic-frame:first-child{display:block;opacity:1!important}.cinematic-shade{background:linear-gradient(0deg,#10201b99,transparent 78%)}.cinematic-copy{position:absolute;inset:auto 0 0;padding:26px}.cinematic-title{font-size:clamp(42px,12vw,70px);margin:14px 0}.cinematic-description{min-height:0}.cinematic-bottom{position:relative;left:auto;right:auto;bottom:auto;padding:14px 4px 0;color:var(--ink)}.cinematic-progress,.cinematic-scrollhint{display:none}.cinematic-next{color:var(--ink);border-color:var(--line)}}
-    @media (hover:none){.photo:hover{filter:none;transform:none}.reserve:hover{background:var(--green);transform:none}}
-    @media(max-width:850px){.top{padding:0 22px}.top-right{gap:14px}.top-right .links{display:none}.hero-wrap{padding:14px 22px 0}.gallery{height:50vw;min-height:275px;grid-template-columns:1.6fr 1fr;grid-template-rows:1fr 1fr}.photo.main{grid-row:1/3}.photo:nth-child(4),.photo:nth-child(5){display:none}.content{padding:36px 22px 70px;grid-template-columns:1fr;gap:38px}.booking{position:static;grid-row:1}.left-content{grid-row:2}}
-    :root{--ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1)}html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;overscroll-behavior:none}button,a,[role="button"]{touch-action:manipulation;user-select:none;-webkit-user-select:none}.top{padding-top:env(safe-area-inset-top,0px)}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #708b79;outline-offset:3px}.share,.heart,.show-all,.all-amenities,.read-more,.reserve{transition:transform 160ms var(--ease-out),background-color 180ms ease,box-shadow 180ms ease,color 180ms ease}.share:active,.heart:active,.show-all:active,.all-amenities:active,.read-more:active,.reserve:active{transform:scale(.97)}.gallery{box-shadow:0 18px 45px #1c2b2414}.photo{transition:transform 500ms var(--ease-out),filter 180ms ease}.photo:focus-visible{outline:3px solid white;outline-offset:-5px}.booking{box-shadow:0 18px 48px #29352d12}.booking:before{content:'Estadia privada · resposta em até 24h';display:block;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#6d7b71;margin-bottom:13px}.reserve{box-shadow:0 8px 18px #20352b22}.reveal{opacity:0;transform:translateY(18px);transition:opacity 560ms var(--ease-out),transform 560ms var(--ease-out)}.reveal.is-visible{opacity:1;transform:translateY(0)}@media (hover:hover) and (pointer:fine){.photo:hover{filter:brightness(.94);transform:scale(1.025)}.reserve:hover{background:#263a30;transform:translateY(-1px);box-shadow:0 12px 24px #20352b2b}.share:hover,.heart:hover,.all-amenities:hover{background:#fff;box-shadow:0 8px 18px #20302b12}.gallery .show-all:hover{transform:translateY(-2px);box-shadow:0 10px 22px #0002}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:opacity 160ms ease}.photo,.share,.heart,.show-all,.all-amenities,.read-more,.reserve{transition-duration:120ms}}@media(max-width:520px){.top{height:auto;min-height:62px;padding:calc(10px + env(safe-area-inset-top,0px)) 18px 10px}.brand{font-size:18px}.top-right{gap:9px;font-size:11px}.share,.heart{padding:8px 10px}.hero-wrap{padding:11px 14px 0}.intro{align-items:start;display:block;margin-bottom:16px}.intro h1{font-size:38px}.review{padding:0;margin-top:14px}.gallery{height:68vw;min-height:260px;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:5px;border-radius:8px}.photo.main{grid-row:1/3}.photo:nth-child(3){display:none}.gallery .show-all{right:10px;bottom:10px;padding:10px 12px;font-size:10px}.content{padding:28px 18px calc(54px + env(safe-area-inset-bottom,0px));gap:30px}.booking{padding:19px}.host-line h2{font-size:21px}.features{gap:19px 12px}.feature{width:calc(50% - 8px)}.amenity-grid{gap:16px 12px}.footer{padding:20px 18px calc(20px + env(safe-area-inset-bottom,0px));gap:20px;flex-wrap:wrap}.field input,.field select{font-size:16px}.field.full select{font-size:16px}}
-    .theme-toggle{border:1px solid var(--line);border-radius:30px;background:transparent;color:inherit;padding:10px 13px;display:inline-flex;align-items:center;gap:7px;font-size:12px}.polaroid-hero{height:min(760px,100svh);min-height:590px;position:relative;overflow:hidden;background:#eeece5;color:#1c211e;isolation:isolate;touch-action:pan-y;outline:none}.polaroid-hero:focus-visible{outline:3px solid #6e8c79;outline-offset:-5px}.polaroid-copy{position:absolute;z-index:3;left:clamp(24px,7vw,100px);top:clamp(38px,9vh,100px);max-width:470px}.polaroid-copy>span{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#68736b}.polaroid-copy h2{font:400 clamp(42px,6.3vw,82px)/.97 var(--serif);letter-spacing:-.045em;margin:16px 0}.polaroid-copy p{max-width:320px;font-size:14px;line-height:1.65;color:#59625c}.polaroid-line{position:absolute;z-index:1;top:18%;left:0;width:100%;height:42%;overflow:visible}.polaroid-line path{fill:none;stroke:#79736a;stroke-width:2}.polaroid-track{position:absolute;inset:0;z-index:2;cursor:grab}.polaroid-track.is-dragging{cursor:grabbing}.polaroid-card{position:absolute;top:28%;width:clamp(170px,22vw,290px);transform-origin:50% 0;will-change:transform}.polaroid-card::before{content:'';position:absolute;z-index:2;left:50%;top:-22px;width:10px;height:28px;margin-left:-5px;border-radius:2px;background:linear-gradient(90deg,#a98658,#e4c99f 48%,#957247);box-shadow:0 2px 4px #0003}.polaroid-print{background:#fbfaf7;padding:10px 10px 0;box-shadow:0 18px 35px -18px #17211b88;transition:transform 420ms var(--ease-out),filter 420ms ease}.polaroid-card:not(.is-active) .polaroid-print{transform:scale(.9);filter:saturate(.7) brightness(.96)}.polaroid-card img{display:block;width:100%;aspect-ratio:1;object-fit:cover;pointer-events:none}.polaroid-note{height:48px;display:flex;align-items:center;justify-content:center;padding:0 7px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font:italic 16px/1.1 var(--serif);color:#3e403c}.polaroid-controls{position:absolute;z-index:4;left:clamp(24px,7vw,100px);right:clamp(24px,7vw,100px);bottom:clamp(22px,5vh,44px);display:flex;align-items:end;justify-content:space-between;gap:20px}.polaroid-controls strong{display:block;font:500 clamp(20px,2.2vw,28px)/1.1 var(--serif)}.polaroid-controls>div>span{display:block;margin-top:6px;font-size:12px;color:#68736b}.polaroid-actions{display:flex;align-items:center;gap:13px}.polaroid-actions>span{margin:0!important;font:11px/1 var(--sans)!important;letter-spacing:.14em!important;color:#59625c!important}.polaroid-btn{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1px solid #b8b5ac;background:transparent;color:#29332d;font-size:18px;transition:background-color 180ms ease,color 180ms ease,transform 160ms var(--ease-out)}.polaroid-btn:active{transform:scale(.97)}@media (hover:hover) and (pointer:fine){.polaroid-btn:hover{background:#20302b;color:#fff}}[data-theme="dark"]{--ink:#e7ebe5;--muted:#aeb8b0;--sand:#16201b;--line:#34443b;--green:#849f89;--white:#20302b}html[data-theme="dark"] body{background:#16201b;color:#e7ebe5}html[data-theme="dark"] .booking{background:#203029;border-color:#394b40;box-shadow:none}html[data-theme="dark"] .booking:before,html[data-theme="dark"] .price span,html[data-theme="dark"] .field input,html[data-theme="dark"] .field select{color:#b9c5bb}html[data-theme="dark"] .reserve{background:#a8c4ae;color:#172019}html[data-theme="dark"] .map-label,html[data-theme="dark"] .gallery .show-all{background:#e7ebe5;color:#172019}html[data-theme="dark"] .polaroid-hero{background:#0f1713;color:#e7ebe5}html[data-theme="dark"] .polaroid-copy>span,html[data-theme="dark"] .polaroid-copy p,html[data-theme="dark"] .polaroid-controls>div>span,html[data-theme="dark"] .polaroid-actions>span{color:#b6c0b8!important}html[data-theme="dark"] .polaroid-line path{stroke:#69776d}@media(max-width:700px){.polaroid-hero{height:82svh;min-height:570px}.polaroid-copy{top:48px}.polaroid-copy h2{max-width:340px}.polaroid-line{top:27%;height:34%}.polaroid-card{top:35%;width:clamp(175px,62vw,260px)}.polaroid-controls{align-items:flex-start;flex-direction:column}.polaroid-actions{align-self:flex-end}.theme-label{display:none}}@media(prefers-reduced-motion:reduce){.polaroid-card,.polaroid-print{transition:none!important}}
+    :root{
+      --ink:#20302b;
+      --muted:#737a73;
+      --sand:#f8f7f3;
+      --line:#e6e5df;
+      --green:#354a40;
+      --white:#fff;
+      --serif:'Playfair Display', Georgia, serif;
+      --sans:'DM Sans', Arial, sans-serif;
+      --shadow:0 30px 80px rgba(24,37,31,.18);
+    }
+
+    *{ box-sizing:border-box; }
+    html{
+      scroll-behavior:smooth;
+      -webkit-text-size-adjust:100%;
+      text-size-adjust:100%;
+      overscroll-behavior:none;
+    }
+    body{
+      margin:0;
+      font-family:var(--sans);
+      background:var(--sand);
+      color:var(--ink);
+      line-height:1.55;
+    }
+    a{ color:inherit; text-decoration:none; }
+    img{ max-width:100%; display:block; }
+    button, input, textarea, select{ font:inherit; }
+    .top{
+      position:sticky;
+      top:0;
+      z-index:50;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      min-height:72px;
+      padding:18px 32px 12px;
+      background:rgba(248,247,243,.78);
+      backdrop-filter:blur(14px);
+      -webkit-backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(32,48,43,.08);
+    }
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:2px;
+      font-size:15px;
+      letter-spacing:.14em;
+      font-weight:700;
+      text-transform:uppercase;
+    }
+    .brand small{
+      font-size:10px;
+      opacity:.75;
+      letter-spacing:.24em;
+    }
+    .top-right{
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+    .links{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      font-size:13px;
+      color:var(--ink);
+      opacity:.9;
+    }
+    .links a{ position:relative; }
+    .links a::after{
+      content:"";
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:-6px;
+      height:1px;
+      background:currentColor;
+      transform:scaleX(0);
+      transform-origin:left center;
+      transition:transform .25s ease;
+    }
+    .links a:hover::after{ transform:scaleX(1); }
+
+    .cta{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      min-height:42px;
+      padding:0 18px;
+      border-radius:999px;
+      background:var(--green);
+      color:var(--white);
+      font-weight:600;
+      border:1px solid rgba(0,0,0,.04);
+      box-shadow:0 10px 30px rgba(53,74,64,.2);
+      transition:transform .25s ease, filter .25s ease;
+    }
+    .cta:hover{
+      transform:translateY(-1px);
+      filter:brightness(1.02);
+    }
+
+    .polaroid-hero{
+      position:relative;
+      min-height:620px;
+      padding:26px 28px 32px;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,.08), transparent 32%),
+        linear-gradient(180deg, rgba(25,37,32,0.95), rgba(16,24,22,1));
+      color:#fff;
+      overflow:hidden;
+    }
+    .polaroid-hero::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.18), rgba(0,0,0,0.04)),
+        linear-gradient(180deg, rgba(0,0,0,.14), rgba(0,0,0,.28));
+      pointer-events:none;
+    }
+    .polaroid-inner{
+      position:relative;
+      z-index:1;
+      max-width:1220px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:20px;
+      align-items:center;
+      min-height:560px;
+    }
+    .polaroid-copy{
+      max-width:560px;
+      padding:28px 0 30px;
+    }
+    .polaroid-copy span{
+      display:inline-block;
+      margin-bottom:18px;
+      font-size:12px;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      opacity:.8;
+    }
+    .polaroid-copy h2{
+      margin:0;
+      font-family:var(--serif);
+      font-weight:500;
+      font-size:clamp(2.8rem, 4vw, 5rem);
+      line-height:0.98;
+      letter-spacing:-.04em;
+    }
+    .polaroid-copy p{
+      max-width:480px;
+      margin:18px 0 10px;
+      font-size:1.02rem;
+      color:rgba(255,255,255,.8);
+    }
+    .polaroid-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 18px;
+      margin-top:24px;
+      color:rgba(255,255,255,.82);
+      font-size:.88rem;
+    }
+    .polaroid-stack{
+      position:relative;
+      height:520px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .polaroid-card{
+      position:absolute;
+      width:min(100%, 430px);
+      aspect-ratio:0.78;
+      border-radius:18px;
+      overflow:hidden;
+      background:#ddd;
+      border:10px solid rgba(255,255,255,.86);
+      box-shadow:var(--shadow);
+      transform-origin:center;
+      transition:transform .5s ease, opacity .4s ease;
+      opacity:0;
+    }
+    .polaroid-card img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+    .polaroid-card:nth-child(1){ transform:translate(-40px, 18px) rotate(-12deg); }
+    .polaroid-card:nth-child(2){ transform:translate(34px, -8px) rotate(10deg); }
+    .polaroid-card:nth-child(3){ transform:translate(10px, 74px) rotate(-4deg); }
+    .polaroid-card.active{
+      opacity:1;
+      z-index:3;
+    }
+    .polaroid-card.prev{
+      opacity:.7;
+      z-index:2;
+    }
+    .polaroid-card.next{
+      opacity:.7;
+      z-index:1;
+    }
+
+    main{
+      width:min(1220px, calc(100% - 48px));
+      margin:0 auto;
+      padding:36px 0 80px;
+    }
+    .hero-wrap{
+      padding:18px 0 0;
+    }
+    .intro{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:36px;
+      align-items:end;
+      margin-bottom:28px;
+    }
+    .eyebrow{
+      display:inline-block;
+      margin-bottom:12px;
+      font-size:12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--muted);
+      font-weight:700;
+    }
+    h1{
+      margin:0;
+      font-family:var(--serif);
+      font-size:clamp(2.7rem, 5vw, 5.6rem);
+      line-height:.96;
+      letter-spacing:-.05em;
+      font-weight:500;
+      color:var(--ink);
+    }
+    .subline{
+      margin-top:18px;
+      font-size:1.08rem;
+      color:var(--muted);
+      max-width:620px;
+    }
+    .hero-actions{
+      display:flex;
+      justify-content:flex-end;
+      gap:14px;
+      align-items:center;
+      padding-bottom:10px;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:1.4fr 1fr;
+      gap:18px;
+      min-height:420px;
+      margin-top:8px;
+    }
+    .photo{
+      position:relative;
+      background-color:#dfe2dd;
+      background-size:cover;
+      background-position:center;
+      border-radius:26px;
+      overflow:hidden;
+      min-height:250px;
+      cursor:pointer;
+      transition:transform .28s ease, filter .28s ease, box-shadow .28s ease;
+      box-shadow:0 20px 48px rgba(23,32,28,.08);
+      border:1px solid rgba(32,48,43,.06);
+    }
+    .photo::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.2));
+      opacity:0;
+      transition:opacity .25s ease;
+    }
+    .photo:hover::before,
+    .photo:focus-visible::before{
+      opacity:1;
+    }
+    .photo:hover,
+    .photo:focus-visible{
+      transform:translateY(-2px);
+      box-shadow:0 24px 52px rgba(23,32,28,.12);
+      filter:saturate(1.04);
+      outline:none;
+    }
+    .photo.main{
+      min-height:420px;
+      background-position:center center;
+    }
+    .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:nth-child(5){
+      min-height:200px;
+    }
+
+    .content{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:28px;
+      margin-top:54px;
+    }
+    .left-content{
+      display:flex;
+      flex-direction:column;
+      gap:26px;
+    }
+    .host-line{
+      display:flex;
+      gap:20px;
+      align-items:flex-start;
+      justify-content:space-between;
+      padding:26px 0 0;
+    }
+    .host-line h2{
+      margin:0 0 10px;
+      font-family:var(--serif);
+      font-size:clamp(2rem, 3vw, 3rem);
+      line-height:1.06;
+      letter-spacing:-.04em;
+      font-weight:500;
+    }
+    .host-line p{
+      margin:0;
+      color:var(--muted);
+      font-size:1.02rem;
+      max-width:560px;
+    }
+    .pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:12px;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:7px;
+      padding:8px 12px;
+      background:#f2efe9;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:12px;
+      font-weight:600;
+      color:var(--ink);
+    }
+    .features{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(180px, 1fr));
+      gap:16px;
+      margin-top:6px;
+    }
+    .feature{
+      display:flex;
+      align-items:flex-start;
+      gap:12px;
+      padding:18px 16px;
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:rgba(255,255,255,.32);
+    }
+    .ico{
+      width:38px;
+      height:38px;
+      min-width:38px;
+      border-radius:12px;
+      display:grid;
+      place-items:center;
+      background:#eef1ec;
+      font-size:18px;
+      color:var(--green);
+    }
+    .feature b{
+      display:block;
+      margin-bottom:2px;
+      font-size:0.96rem;
+    }
+    .feature small{
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.4;
+    }
+
+    .description{
+      border-top:1px solid var(--line);
+      padding-top:26px;
+    }
+    .description p{
+      margin:0;
+      font-size:1.02rem;
+      color:var(--ink);
+      max-width:700px;
+    }
+
+    .amenities{
+      margin-top:8px;
+    }
+    .section-title{
+      margin:0 0 18px;
+      font-family:var(--serif);
+      font-size:clamp(1.8rem, 2.4vw, 2.5rem);
+      line-height:1.08;
+      letter-spacing:-.04em;
+      font-weight:500;
+    }
+    .amenity-grid{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(180px, 1fr));
+      gap:14px;
+    }
+    .amenity{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding:14px 14px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#fff;
+      color:var(--ink);
+      min-height:52px;
+    }
+    .amenity i{
+      width:26px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      font-style:normal;
+      color:var(--green);
+      font-size:1.1rem;
+    }
+
+    .location{
+      margin-top:8px;
+      padding-top:8px;
+    }
+    .location .subline{
+      margin:0 0 18px;
+      color:var(--muted);
+      font-size:.96rem;
+    }
+    .map{
+      position:relative;
+      border-radius:22px;
+      overflow:hidden;
+      border:1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(52,77,72,.9), rgba(26,38,33,.96)),
+        url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+      min-height:240px;
+      display:flex;
+      align-items:flex-end;
+      justify-content:flex-end;
+      padding:18px;
+    }
+    .map-card{
+      background:rgba(255,255,255,.9);
+      border:1px solid rgba(32,48,43,.08);
+      border-radius:16px;
+      padding:14px 16px;
+      box-shadow:0 16px 28px rgba(0,0,0,.08);
+      max-width:260px;
+    }
+    .map-card strong{
+      display:block;
+      margin-bottom:4px;
+      font-size:.94rem;
+    }
+    .map-card span{
+      color:var(--muted);
+      font-size:.8rem;
+    }
+
+    .booking{
+      position:sticky;
+      top:96px;
+      align-self:start;
+      padding:22px 20px 18px;
+      border:1px solid var(--line);
+      border-radius:22px;
+      background:rgba(255,255,255,.72);
+      box-shadow:0 16px 36px rgba(37,49,42,.06);
+    }
+    .price{
+      display:flex;
+      gap:8px;
+      align-items:baseline;
+      flex-wrap:wrap;
+      margin-bottom:10px;
+    }
+    .price strong{
+      font-size:1.2rem;
+      font-weight:700;
+    }
+    .price span{
+      color:var(--muted);
+      font-size:12px;
+    }
+    .booking .description{
+      margin:0;
+      padding-top:10px;
+      border-top:none;
+      font-size:12px;
+      color:var(--muted);
+      line-height:1.7;
+    }
+    .booking-actions{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:18px;
+    }
+    .secondary{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:44px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:transparent;
+      color:var(--ink);
+      font-weight:600;
+      padding:0 16px;
+      transition:background .2s ease;
+    }
+    .secondary:hover{
+      background:#f3f0ec;
+    }
+
+    .footer{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      padding-top:30px;
+      margin-top:30px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:12px;
+    }
+
+    .modal{
+      position:fixed;
+      inset:0;
+      display:grid;
+      place-items:center;
+      background:rgba(7,11,10,.72);
+      backdrop-filter:blur(10px);
+      -webkit-backdrop-filter:blur(10px);
+      opacity:0;
+      visibility:hidden;
+      pointer-events:none;
+      transition:opacity .22s ease, visibility .22s ease;
+      z-index:100;
+    }
+    .modal.show{
+      opacity:1;
+      visibility:visible;
+      pointer-events:auto;
+    }
+    .modal-shell{
+      position:relative;
+      width:min(84vw, 960px);
+      max-height:88vh;
+      background:#fff;
+      border-radius:22px;
+      overflow:hidden;
+      box-shadow:0 30px 90px rgba(0,0,0,.28);
+      border:1px solid rgba(255,255,255,.06);
+    }
+    .modal-image-wrap{
+      position:relative;
+      width:100%;
+      aspect-ratio:16/10;
+      background:#dfe4df;
+    }
+    .modal-image-wrap img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+    .modal-close,
+    .modal-prev,
+    .modal-next{
+      position:absolute;
+      z-index:2;
+      border:none;
+      cursor:pointer;
+      color:#fff;
+      background:rgba(14,20,18,.52);
+      backdrop-filter:blur(8px);
+      -webkit-backdrop-filter:blur(8px);
+      transition:transform .22s ease, background .22s ease;
+    }
+    .modal-close{
+      top:16px;
+      right:16px;
+      width:42px;
+      height:42px;
+      border-radius:50%;
+      font-size:28px;
+      line-height:1;
+    }
+    .modal-prev,
+    .modal-next{
+      top:50%;
+      transform:translateY(-50%);
+      width:46px;
+      height:46px;
+      border-radius:50%;
+      font-size:28px;
+    }
+    .modal-prev{ left:16px; }
+    .modal-next{ right:16px; }
+    .modal-close:hover,
+    .modal-prev:hover,
+    .modal-next:hover{
+      transform:translateY(-50%) scale(1.04);
+      background:rgba(14,20,18,.7);
+    }
+    .modal-caption{
+      position:absolute;
+      left:18px;
+      right:18px;
+      bottom:16px;
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:16px;
+      background:linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.58));
+      color:#fff;
+      padding:18px 14px 12px;
+      border-radius:0 0 22px 22px;
+    }
+    .modal-caption h3{
+      margin:0 0 4px;
+      font-size:1.05rem;
+      font-weight:700;
+    }
+    .modal-caption p{
+      margin:0;
+      font-size:12px;
+      color:rgba(255,255,255,.82);
+    }
+
+    .toast{
+      position:fixed;
+      left:50%;
+      bottom:20px;
+      transform:translateX(-50%) translateY(20px);
+      background:rgba(24,37,31,.96);
+      color:#fff;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:999px;
+      padding:10px 18px;
+      font-size:12px;
+      opacity:0;
+      pointer-events:none;
+      transition:opacity .2s ease, transform .2s ease;
+      z-index:120;
+    }
+    .toast.show{
+      opacity:1;
+      transform:translateX(-50%) translateY(0);
+    }
+
+    .reveal{
+      opacity:0;
+      transform:translateY(26px);
+      transition:opacity .7s cubic-bezier(.23,1,.32,1), transform .7s cubic-bezier(.23,1,.32,1);
+    }
+    .reveal.visible{
+      opacity:1;
+      transform:none;
+    }
+
+    @media (max-width: 980px){
+      .intro,
+      .content,
+      .polaroid-inner{
+        grid-template-columns:1fr;
+      }
+      .hero-actions{
+        justify-content:flex-start;
+      }
+      .booking{
+        position:relative;
+        top:auto;
+      }
+      .polaroid-stack{
+        height:440px;
+      }
+    }
+
+    @media (max-width: 760px){
+      .top{
+        padding:14px 18px 10px;
+      }
+      .top-right .links{
+        display:none;
+      }
+      main{
+        width:min(100% - 24px, 1220px);
+      }
+      .polaroid-hero{
+        padding:18px 14px 22px;
+      }
+      .gallery{
+        grid-template-columns:1fr;
+      }
+      .photo.main{
+        min-height:320px;
+      }
+      .modal-shell{
+        width:min(92vw, 760px);
+      }
+      .footer{
+        flex-direction:column;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <header class="top"><div class="brand">AUBE Residence<small>JOÃO PESSOA · BRASIL</small></div><nav class="top-right"><div class="links"><a href="#sobre">A casa</a>　<a href="#localizacao">Localização</a></div><button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar tema escuro" aria-pressed="false"><span aria-hidden="true">◐</span><span class="theme-label">Tema</span></button><button class="share" id="share">↗　Compartilhar</button><button class="heart" id="heart" aria-label="Salvar casa">♡</button></nav></header>
-  <section class="polaroid-hero" id="polaroidHero" aria-label="Momentos da AUBE Residence" tabindex="0"><div class="polaroid-copy"><span>AUBE Residence · João Pessoa</span><h2>Memórias penduradas no tempo.</h2><p>Arraste as fotos para descobrir a atmosfera da sua próxima estadia.</p></div><svg class="polaroid-line" aria-hidden="true" viewBox="0 0 1440 280" preserveAspectRatio="none"><path d="M0 70 Q720 205 1440 70"></path></svg><div class="polaroid-track" id="polaroidTrack"></div><div class="polaroid-controls"><div><strong id="polaroidTitle">Piscina privativa</strong><span id="polaroidCaption">Sol, água e jardim para aproveitar sem pressa.</span></div><div class="polaroid-actions"><button class="polaroid-btn" id="polaroidPrev" type="button" aria-label="Foto anterior">←</button><span id="polaroidCount" aria-live="polite">01 / 06</span><button class="polaroid-btn" id="polaroidNext" type="button" aria-label="Próxima foto">→</button></div></div></section>
-  <main><section class="hero-wrap" id="stay-gallery"><div class="intro reveal"><div><div class="eyebrow">Sua temporada, em outro ritmo</div><h1>AUBE Residence</h1><div class="subline">João Pessoa, Brasil　·　Casa inteira　·　Até 8 hóspedes</div></div><div class="review">★　<b>4,98</b>　·　32 avaliações</div></div>
-    <div class="gallery reveal" id="gallery">
-      <div class="photo main" data-i="0" role="button" tabindex="0" aria-label="Abrir foto 1 da AUBE Residence"></div><div class="photo" data-i="1" role="button" tabindex="0" aria-label="Abrir foto 2 da AUBE Residence"></div><div class="photo" data-i="2" role="button" tabindex="0" aria-label="Abrir foto 3 da AUBE Residence"></div><div class="photo" data-i="3" role="button" tabindex="0" aria-label="Abrir foto 4 da AUBE Residence"></div><div class="photo" data-i="4" role="button" tabindex="0" aria-label="Abrir foto 5 da AUBE Residence"></div><button class="show-all" id="showAll">▦　Ver todas as fotos</button>
+  <header class="top">
+    <div class="brand">AUBE Residence<small>JOÃO PESSOA · BRASIL</small></div>
+    <nav class="top-right">
+      <div class="links">
+        <a href="#sobre">A casa</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#stay-gallery">Galeria</a>
+      </div>
+      <a class="cta" href="#reserva">Reservar</a>
+    </nav>
+  </header>
+
+  <section class="polaroid-hero" id="polaroidHero" aria-label="Momentos da AUBE Residence">
+    <div class="polaroid-inner">
+      <div class="polaroid-copy">
+        <span>AUBE Residence · João Pessoa</span>
+        <h2>Memórias penduradas no tempo.</h2>
+        <p>Entre jardins, piscina, luz natural e o ritmo mais leve da cidade, a casa foi pensada para receber seu tempo com calma.</p>
+        <div class="polaroid-meta">
+          <span>8 hóspedes</span>
+          <span>4 suítes</span>
+          <span>4,5 banheiros</span>
+        </div>
+      </div>
+
+      <div class="polaroid-stack" aria-live="polite">
+        <div class="polaroid-card"><img src="images/aube-11.png" alt="Piscina privativa"></div>
+        <div class="polaroid-card"><img src="images/aube-14.png" alt="Convívio integrado"></div>
+        <div class="polaroid-card"><img src="images/aube-01.png" alt="Vista da casa"></div>
+      </div>
     </div>
   </section>
-  <section class="content"><div class="left-content reveal" id="sobre"><div class="host-line"><div><h2>Um refúgio entre o verde e o mar</h2><p>8 hóspedes　·　4 suítes　·　5 camas　·　4,5 banheiros</p></div><div class="avatar">A</div></div>
-    <div class="features"><div class="feature"><span class="ico">⌂</span><span><b>Casa inteira</b><small>privacidade para o seu grupo</small></span></div><div class="feature"><span class="ico">♨</span><span><b>Piscina privativa</b><small>com vista para o jardim</small></span></div><div class="feature"><span class="ico">⌁</span><span><b>A 3 min da praia</b><small>caminho por dentro do condomínio</small></span></div><div class="feature"><span class="ico">✧</span><span><b>Anfitriã experiente</b><small>recepção pessoal na chegada</small></span></div></div>
-    <div class="description"><p>Entre a piscina privativa, o jardim e os espaços amplos para reunir quem importa, a AUBE Residence foi pensada para dias sem pressa em João Pessoa. Acorde com a luz entrando pela casa, aproveite a piscina e transforme cada encontro em lembrança.</p><p>São quatro suítes com ar-condicionado, cozinha equipada e uma área social integrada para dividir bons momentos. Fale diretamente com o anfitrião para alinhar cada detalhe da estadia.</p><div id="more" hidden><p>A casa oferece privacidade, conforto e ambientes preparados para receber grupos e famílias. As informações completas são confirmadas diretamente pelo anfitrião no momento da consulta.</p></div><button class="read-more" id="readMore">Mostrar mais　⌄</button></div>
-    <div class="amenities"><h2 class="section-title">O que este lugar oferece</h2><div class="amenity-grid"><div class="amenity"><i>♨</i> Piscina privativa</div><div class="amenity"><i>◉</i> Vista para o jardim</div><div class="amenity"><i>⌁</i> Acesso à praia</div><div class="amenity"><i>⌂</i> Cozinha completa</div><div class="amenity"><i>◌</i> Ar-condicionado</div><div class="amenity"><i>▤</i> Wi-Fi de alta velocidade</div><div class="amenity"><i>♧</i> Jardim tropical</div><div class="amenity"><i>♙</i> Estacionamento gratuito</div></div><button class="all-amenities" id="amenities">Ver todas as comodidades</button></div>
-    <div class="location" id="localizacao"><h2 class="section-title">Onde você vai estar</h2><p class="subline" style="margin:0 0 17px">João Pessoa, Paraíba, Brasil</p><div class="map"><div class="map-label">📍　João Pessoa · localização aproximada</div></div><p class="description" style="font-size:12px;margin-top:17px">O endereço completo e as orientações de chegada são enviados diretamente pelo anfitrião após a confirmação da reserva.</p></div>
-  </div><aside class="booking reveal"><div class="price"><strong>Reserve com calma</strong> <span>— confirmação direta com o anfitrião</span></div><p class="description" style="font-size:12px;line-height:1.7;margin:0 0 16px">Fale pelo WhatsApp para consultar datas, valores e todas as informações da AUBE Residence.</p><a class="reserve" id="whatsappAvailability" href="#" target="_blank" rel="noopener noreferrer">Ver disponibilidades no WhatsApp</a><div class="fine">Atendimento direto com o proprietário</div><div class="note"><span>✧</span><span><b>Resposta pessoal</b>Você recebe os detalhes e a confirmação diretamente no WhatsApp.</span></div></aside></section></main>
-  <footer class="footer"><span>© 2025 AUBE Residence · Uma estadia imaginada</span><span>Feito para viver João Pessoa com calma　·　Português (BR)　R$ BRL</span></footer>
-  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Galeria de fotos"><button class="modal-close" id="close" aria-label="Fechar galeria">×</button><button class="modal-prev" id="prev" aria-label="Foto anterior">‹</button><img id="modalImg" alt="AUBE Residence"><button class="modal-next" id="next" aria-label="Próxima foto">›</button><div class="modal-count" id="count"></div></div><div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <main>
+    <section class="hero-wrap" id="stay-gallery">
+      <div class="intro reveal">
+        <div>
+          <div class="eyebrow">Sua temporada, em outro ritmo</div>
+          <h1>AUBE Residence</h1>
+          <div class="subline">João Pessoa, Paraíba — um refúgio pensado para manhãs lentas, longas conversas e dias de sol sem pressa.</div>
+        </div>
+        <div class="hero-actions">
+          <a class="secondary" href="#sobre">Conhecer a casa</a>
+          <a class="cta" href="#reserva">Reservar</a>
+        </div>
+      </div>
+
+      <div class="gallery reveal" id="gallery">
+        <div class="photo main" data-i="0" role="button" tabindex="0" aria-label="Abrir foto 1 da AUBE Residence"></div>
+        <div class="photo" data-i="1" role="button" tabindex="0" aria-label="Abrir foto 2 da AUBE Residence"></div>
+        <div class="photo" data-i="2" role="button" tabindex="0" aria-label="Abrir foto 3 da AUBE Residence"></div>
+        <div class="photo" data-i="3" role="button" tabindex="0" aria-label="Abrir foto 4 da AUBE Residence"></div>
+        <div class="photo" data-i="4" role="button" tabindex="0" aria-label="Abrir foto 5 da AUBE Residence"></div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="left-content reveal" id="sobre">
+        <div class="host-line">
+          <div>
+            <h2>Um refúgio entre o verde e o mar</h2>
+            <p>8 hóspedes · 4 suítes · 5 camas · 4,5 banheiros · piscina privativa · jardim e áreas amplas para viver em calma.</p>
+          </div>
+        </div>
+
+        <div class="pills">
+          <span class="pill">Casa inteira</span>
+          <span class="pill">Piscina</span>
+          <span class="pill">Jardim</span>
+          <span class="pill">Wi‑Fi</span>
+          <span class="pill">Ar-condicionado</span>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <span class="ico">⌂</span>
+            <span><b>Casa inteira</b><small>privacidade para o seu grupo</small></span>
+          </div>
+          <div class="feature">
+            <span class="ico">♨</span>
+            <span><b>Piscina privativa</b><small>para dias de sol sem pressa</small></span>
+          </div>
+          <div class="feature">
+            <span class="ico">☼</span>
+            <span><b>Luz e ventilação</b><small>espaços acolhedores e naturais</small></span>
+          </div>
+          <div class="feature">
+            <span class="ico">✦</span>
+            <span><b>Conforto em cada detalhe</b><small>para chegar e descansar</small></span>
+          </div>
+        </div>
+
+        <div class="description">
+          <p>Entre a piscina privativa, o jardim e os espaços amplos para reunir quem importa, a AUBE Residence foi pensada para dias sem pressa em João Pessoa. Acorde com a luz e o vento, aproveite a casa como o seu refúgio e viva a cidade com um ritmo mais suave.</p>
+        </div>
+
+        <div class="amenities">
+          <h2 class="section-title">O que este lugar oferece</h2>
+          <div class="amenity-grid">
+            <div class="amenity"><i>♨</i> Piscina privativa</div>
+            <div class="amenity"><i>◉</i> Jardim e área externa</div>
+            <div class="amenity"><i>⌂</i> Sala ampla e acolhedora</div>
+            <div class="amenity"><i>✓</i> Wi‑Fi rápido</div>
+            <div class="amenity"><i>❋</i> Ar-condicionado</div>
+            <div class="amenity"><i>☼</i> Luz natural em todos os quartos</div>
+          </div>
+        </div>
+
+        <div class="location" id="localizacao">
+          <h2 class="section-title">Onde você vai estar</h2>
+          <p class="subline">João Pessoa, Paraíba, Brasil</p>
+          <div class="map">
+            <div class="map-card">
+              <strong>Próximo da costa e do centro</strong>
+              <span>Você fica a poucos minutos de praias, cafés e áreas verdes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="booking reveal" id="reserva">
+        <div class="price">
+          <strong>Reserve com calma</strong>
+          <span>— confirmação direta com o anfitrião</span>
+        </div>
+
+        <p class="description" style="font-size:12px; line-height:1.7;">
+          Seu período foi pensado para viver sem correria. Se quiser combinar datas, receber instruções ou confirmar detalhes antes da chegada, o anfitrião te responde direto no WhatsApp.
+        </p>
+
+        <div class="booking-actions">
+          <a class="cta" id="whatsappAvailability" href="https://wa.me/5581995907211?text=Olá!%20Quero%20saber%20sobre%20a%20disponibilidade%20da%20AUBE%20Residence." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          <button class="secondary" id="themeToggle" type="button">Alternar tema</button>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <span>© 2025 AUBE Residence · Uma estadia imaginada</span>
+      <span>Feito para viver João Pessoa com calma · Português (BR) · R$ BRL</span>
+    </footer>
+  </main>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Galeria de fotos">
+    <div class="modal-shell">
+      <button class="modal-close" id="close" aria-label="Fechar galeria">×</button>
+      <button class="modal-prev" id="prev" aria-label="Anterior">‹</button>
+      <button class="modal-next" id="next" aria-label="Próxima">›</button>
+
+      <div class="modal-image-wrap">
+        <img id="modalImg" src="" alt="Foto da AUBE Residence">
+      </div>
+
+      <div class="modal-caption">
+        <div>
+          <h3 id="modalTitle">AUBE Residence</h3>
+          <p id="modalDescription">Detalhes da casa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+
   <script>
-  (()=>{const s=document.getElementById('cinematic');if(!s||matchMedia('(prefers-reduced-motion: reduce)').matches)return;const f=[...s.querySelectorAll('.cinematic-frame')],d=[['Trancoso · Bahia · 16°35′ sul','O tempo muda de ritmo.','Entre o verde profundo e a luz morna da Bahia, existe um lugar para respirar.'],['A casa · Arquitetura em harmonia','Feita para se abrir ao dia.','Madeira natural, portas de vidro e espaços que deixam a brisa atravessar.'],['O jardim · Seu próprio refúgio','Um mergulho sem hora marcada.','A piscina e o verde tropical convidam a esquecer a pressa lá fora.'],['A estadia · Até 8 hóspedes','Dias que ficam com você.','Quatro suítes, encontros longos e o mar sempre por perto.']],k=document.getElementById('storyKicker'),t=document.getElementById('storyTitle'),p=document.getElementById('storyDescription'),c=document.getElementById('storyCount'),b=document.getElementById('storyBar');let tick=false,last=-1;function u(){const r=s.getBoundingClientRect(),pr=Math.max(0,Math.min(1,-r.top/Math.max(1,s.offsetHeight-innerHeight))),pos=pr*3,i=Math.min(3,Math.floor(pos)),blend=pos-i;f.forEach((x,n)=>{x.style.opacity=String(n===i?1-blend:n===i+1?blend:0);x.style.transform='scale('+(1.09-pr*.055)+')'});b.style.width=pr*100+'%';if(i!==last){last=i;k.textContent=d[i][0];t.textContent=d[i][1];p.textContent=d[i][2];c.textContent=String(i+1).padStart(2,'0')+' / 04'}tick=false}function sc(){if(!tick){requestAnimationFrame(u);tick=true}}addEventListener('scroll',sc,{passive:true});addEventListener('resize',sc);u()})();
-  (()=>{const root=document.documentElement,toggle=document.getElementById('themeToggle'),saved=localStorage.getItem('aube-theme'),systemDark=matchMedia('(prefers-color-scheme: dark)').matches;function setTheme(theme){root.dataset.theme=theme;toggle.setAttribute('aria-pressed',String(theme==='dark'));toggle.setAttribute('aria-label',theme==='dark'?'Ativar tema claro':'Ativar tema escuro');localStorage.setItem('aube-theme',theme)}setTheme(saved||(systemDark?'dark':'light'));toggle.addEventListener('click',()=>setTheme(root.dataset.theme==='dark'?'light':'dark'))})();
-  (()=>{const slides=[['aube-images/aube-11.png','Piscina privativa','Sol, água e jardim para aproveitar sem pressa.'],['aube-images/aube-14.png','Convívio integrado','Sala, mesa e piscina em um mesmo ritmo.'],['aube-images/aube-01.png','Área social','Espaços amplos para reunir quem você gosta.'],['aube-images/aube-13.png','Suíte confortável','Ar-condicionado e espaço para descansar.'],['aube-images/aube-02.png','Cozinha equipada','Pronta para as refeições da sua estadia.'],['aube-images/aube-12.png','Jardim e piscina','Um refúgio particular em João Pessoa.']];const hero=document.getElementById('polaroidHero'),track=document.getElementById('polaroidTrack'),title=document.getElementById('polaroidTitle'),caption=document.getElementById('polaroidCaption'),count=document.getElementById('polaroidCount');let active=0,offset=0,drag=null;track.innerHTML=slides.map((slide,index)=>`<article class="polaroid-card" data-index="${index}"><div class="polaroid-print"><img src="${slide[0]}" alt="${slide[1]}"><div class="polaroid-note">${slide[1]}</div></div></article>`).join('');const cards=[...track.querySelectorAll('.polaroid-card')];function render(){const width=hero.clientWidth,spacing=Math.min(330,Math.max(210,width*.58));offset=active*spacing;cards.forEach((card,index)=>{const x=width/2+(index*spacing-offset);const normalized=(x-width/2)/(width/2);const y=94+Math.max(0,1-normalized*normalized)*105;card.style.transform=`translate(${x-card.offsetWidth/2}px,${y}px) rotate(${normalized*.08}rad)`;card.classList.toggle('is-active',index===active)});title.textContent=slides[active][1];caption.textContent=slides[active][2];count.textContent=String(active+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0')}function go(direction){active=(active+direction+slides.length)%slides.length;render()}document.getElementById('polaroidPrev').onclick=()=>go(-1);document.getElementById('polaroidNext').onclick=()=>go(1);track.addEventListener('pointerdown',event=>{drag={x:event.clientX,active};track.setPointerCapture(event.pointerId);track.classList.add('is-dragging')});track.addEventListener('pointerup',event=>{if(!drag)return;const delta=event.clientX-drag.x;if(Math.abs(delta)>38)active=(drag.active+(delta<0?1:-1)+slides.length)%slides.length;else{const card=event.target.closest('.polaroid-card');if(card)active=Number(card.dataset.index)}drag=null;track.classList.remove('is-dragging');render()});track.addEventListener('pointercancel',()=>{drag=null;track.classList.remove('is-dragging');render()});hero.addEventListener('keydown',event=>{if(event.key==='ArrowRight')go(1);if(event.key==='ArrowLeft')go(-1)});addEventListener('resize',render);render()})();
-  const photos=[
-    'images/aube-01.png',
-    'images/aube-02.png',
-    'images/aube-03.png',
-    'images/aube-04.png',
-    'images/aube-05.png',
-    'images/aube-06.png',
-    'images/aube-07.png',
-    'images/aube-08.png',
-    'images/aube-09.png',
-    'images/aube-10.png',
-    'images/aube-11.png',
-    'images/aube-12.png',
-    'images/aube-13.png',
-    'images/aube-14.png'
-  ];
-  const tiles=[...document.querySelectorAll('.photo')];let active=0,lastFocused=null;const modal=document.getElementById('modal'),img=document.getElementById('modalImg');function updateGallery(){img.src=photos[active];document.getElementById('count').textContent=`${active+1} / ${photos.length}`}function openGallery(i){lastFocused=document.activeElement;active=i;updateGallery();modal.classList.add('open');document.body.style.overflow='hidden';document.getElementById('close').focus()}function closeGallery(){modal.classList.remove('open');document.body.style.overflow='';lastFocused?.focus()}tiles.forEach((el,i)=>{el.style.backgroundImage=`url('${photos[i]}')`;el.addEventListener('click',()=>openGallery(i));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGallery(i)}})});document.getElementById('showAll').onclick=()=>openGallery(0);document.getElementById('close').onclick=closeGallery;document.getElementById('prev').onclick=()=>{active=(active+photos.length-1)%photos.length;updateGallery()};document.getElementById('next').onclick=()=>{active=(active+1)%photos.length;updateGallery()};modal.addEventListener('click',e=>{if(e.target===modal)closeGallery()});document.addEventListener('keydown',e=>{if(!modal.classList.contains('open'))return;if(e.key==='Escape')closeGallery();if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
-  const toast=document.getElementById('toast');let toastTimer;function showToast(text){toast.textContent=text;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2600)}document.getElementById('heart').onclick=e=>{e.currentTarget.classList.toggle('saved');e.currentTarget.textContent=e.currentTarget.classList.contains('saved')?'♥':'♡';showToast(e.currentTarget.classList.contains('saved')?'Casa salva nos seus favoritos':'Casa removida dos favoritos')};document.getElementById('share').onclick=async()=>{try{if(navigator.share)await navigator.share({title:'AUBE Residence — João Pessoa',url:location.href});else{await navigator.clipboard.writeText(location.href);showToast('Link copiado para compartilhar')}}catch(e){}};document.getElementById('readMore').onclick=e=>{const more=document.getElementById('more');more.hidden=!more.hidden;e.currentTarget.textContent=more.hidden?'Mostrar mais　⌄':'Mostrar menos　⌃'};document.getElementById('amenities').onclick=()=>showToast('Piscina · cozinha · ar-condicionado · Wi-Fi · jardim · estacionamento · e muito mais');
-  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const reveals=document.querySelectorAll('.reveal');const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.12,rootMargin:'0px 0px -48px'});reveals.forEach((element,index)=>{element.style.transitionDelay=`${Math.min(index*45,135)}ms`;observer.observe(element)})}else document.querySelectorAll('.reveal').forEach(element=>element.classList.add('is-visible'));
-  const ownerWhatsApp='5581995907211';const availability=document.getElementById('whatsappAvailability');availability.addEventListener('click',event=>{if(!ownerWhatsApp){event.preventDefault();showToast('Adicione o número do proprietário para abrir o WhatsApp');return}const message=encodeURIComponent('Olá! Gostaria de verificar as disponibilidades da AUBE Residence.');availability.href=`https://wa.me/${ownerWhatsApp}?text=${message}`});
+    (() => {
+      const slides = [
+        ['images/aube-11.png', 'Piscina privativa', 'Sol, água e jardim para aproveitar sem pressa.'],
+        ['images/aube-14.png', 'Convívio integrado', 'Sala, mesa e piscina em um mesmo ritmo.'],
+        ['images/aube-01.png', 'Vista da casa', 'Luz, arquitetura e sensação de pausa.'],
+        ['images/aube-02.png', 'Ambiente acolhedor', 'Detalhes pensados para morar bem.'],
+        ['images/aube-03.png', 'A casa em paisagem', 'Uma rotina mais leve entre o verde e o mar.']
+      ];
+
+      const hero = document.getElementById('polaroidHero');
+      if (hero && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        const cards = Array.from(hero.querySelectorAll('.polaroid-card'));
+        let current = 0;
+
+        function renderCards() {
+          cards.forEach((card, index) => {
+            const image = card.querySelector('img');
+            const data = slides[(current + index) % slides.length];
+            if (!data) return;
+
+            image.src = data[0];
+            image.alt = data[1];
+
+            card.classList.remove('active', 'prev', 'next');
+            if (index === 0) card.classList.add('active');
+            if (index === 1) card.classList.add('prev');
+            if (index === 2) card.classList.add('next');
+          });
+        }
+
+        renderCards();
+
+        setInterval(() => {
+          current = (current + 1) % slides.length;
+          renderCards();
+        }, 2600);
+      }
+    })();
+
+    (() => {
+      const root = document.documentElement;
+      const toggle = document.getElementById('themeToggle');
+      const saved = localStorage.getItem('aube-theme');
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const applyTheme = (dark) => {
+        root.style.setProperty('--sand', dark ? '#18251f' : '#f8f7f3');
+        root.style.setProperty('--ink', dark ? '#f3efe8' : '#20302b');
+        root.style.setProperty('--muted', dark ? '#b5b8b1' : '#737a73');
+        root.style.setProperty('--line', dark ? 'rgba(255,255,255,0.09)' : '#e6e5df');
+        root.style.setProperty('--white', dark ? '#1d2a26' : '#fff');
+        root.style.setProperty('--green', dark ? '#d9e7de' : '#354a40');
+        document.body.style.background = dark ? '#18251f' : '#f8f7f3';
+        document.body.style.color = dark ? '#f3efe8' : '#20302b';
+      };
+
+      if (saved) {
+        applyTheme(saved === 'dark');
+      } else {
+        applyTheme(systemDark);
+      }
+
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          const next = root.style.getPropertyValue('--sand') === '#18251f' ? 'light' : 'dark';
+          localStorage.setItem('aube-theme', next);
+          applyTheme(next === 'dark');
+        });
+      }
+    })();
+
+    (() => {
+      const photos = [
+        'images/aube-01.png',
+        'images/aube-02.png',
+        'images/aube-03.png',
+        'images/aube-04.png',
+        'images/aube-05.png',
+        'images/aube-06.png',
+        'images/aube-07.png',
+        'images/aube-08.png',
+        'images/aube-09.png',
+        'images/aube-10.png',
+        'images/aube-11.png',
+        'images/aube-12.png',
+        'images/aube-13.png',
+        'images/aube-14.png'
+      ];
+
+      const captions = [
+        ['Piscina privativa', 'Sol, água e jardim para aproveitar sem pressa.'],
+        ['Ambiente acolhedor', 'Texturas, conforto e vista para o máximo do descanso.'],
+        ['Convívio integrado', 'Sala, mesa e piscina em uma mesma rotina leve.'],
+        ['Jardim e arquitetura', 'Detalhes que tornam a casa acolhedora em qualquer estação.'],
+        ['Momento de pausa', 'Um espaço para viver sem correria.'],
+        ['Luz natural', 'A casa recebe luz em todos os momentos do dia.'],
+        ['A casa em paisagem', 'Uma combinação entre recolhimento e natureza.'],
+        ['A decoração', 'Pontos de conforto em cada ambiente.'],
+        ['Detalhes de rotina', 'Tudo pensado para ficar mais leve e bonito.'],
+        ['Ponto de encontro', 'Espaço para receber, descansar e conversar.'],
+        ['Vista externa', 'A piscina e o jardim em pleno equilíbrio.'],
+        ['Ritmo de casa', 'A rotina mais tranquila começa aqui.'],
+        ['O melhor da estadia', 'Uma casa que convida a desacelerar.'],
+        ['Paisagem inteira', 'João Pessoa vista de um lugar pensado para morar bem.']
+      ];
+
+      const tiles = Array.from(document.querySelectorAll('.photo'));
+      const modal = document.getElementById('modal');
+      const modalImg = document.getElementById('modalImg');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalDescription = document.getElementById('modalDescription');
+      const closeBtn = document.getElementById('close');
+      const prevBtn = document.getElementById('prev');
+      const nextBtn = document.getElementById('next');
+      let active = 0;
+      let lastFocused = null;
+
+      function updateGalleryVisual() {
+        tiles.forEach((tile, index) => {
+          const image = photos[index] || photos[0];
+          tile.style.backgroundImage = `url("${image}")`;
+          tile.setAttribute('aria-label', `Abrir foto ${index + 1} da AUBE Residence`);
+        });
+      }
+
+      function openModal(index) {
+        active = index;
+        const img = photos[index];
+        if (!img) return;
+
+        modalImg.src = img;
+        modalImg.alt = captions[index]?.[0] || 'Foto da AUBE Residence';
+        modalTitle.textContent = captions[index]?.[0] || 'AUBE Residence';
+        modalDescription.textContent = captions[index]?.[1] || 'Detalhes da casa';
+        modal.classList.add('show');
+        lastFocused = document.activeElement;
+      }
+
+      function closeModal() {
+        modal.classList.remove('show');
+        if (lastFocused) lastFocused.focus();
+      }
+
+      function moveModal(step) {
+        const nextIndex = (active + step + photos.length) % photos.length;
+        openModal(nextIndex);
+      }
+
+      updateGalleryVisual();
+
+      tiles.forEach((tile, index) => {
+        tile.addEventListener('click', () => openModal(index));
+        tile.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openModal(index);
+          }
+        });
+      });
+
+      closeBtn.addEventListener('click', closeModal);
+      prevBtn.addEventListener('click', () => moveModal(-1));
+      nextBtn.addEventListener('click', () => moveModal(1));
+
+      document.addEventListener('keydown', (event) => {
+        if (!modal.classList.contains('show')) return;
+        if (event.key === 'Escape') closeModal();
+        if (event.key === 'ArrowRight') moveModal(1);
+        if (event.key === 'ArrowLeft') moveModal(-1);
+      });
+
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) closeModal();
+      });
+    })();
+
+    (() => {
+      const toast = document.getElementById('toast');
+      let toastTimer;
+
+      function showToast(text) {
+        toast.textContent = text;
+        toast.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove('show'), 1800);
+      }
+
+      const availability = document.getElementById('whatsappAvailability');
+      if (availability) {
+        availability.addEventListener('click', (event) => {
+          event.preventDefault();
+          window.open('https://wa.me/5581995907211?text=Olá!%20Quero%20saber%20sobre%20a%20disponibilidade%20da%20AUBE%20Residence.', '_blank', 'noopener');
+          showToast('Abrindo WhatsApp…');
+        });
+      }
+    })();
+
+    (() => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+      const reveals = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.18 });
+
+      reveals.forEach((el) => observer.observe(el));
+    })();
   </script>
-</body></html>
+</body>
+</html>
